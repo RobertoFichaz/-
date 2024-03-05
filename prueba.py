@@ -1,11 +1,5 @@
-import cv2
-import numpy as np
+errrrrrrrrrrrrrrrrr
 
-# Cargar los pesos y la configuración de YOLOv3
-net = cv2.dnn.readNet('yolov3.weights', 'yolov3.cfg')
-
-# Cargar las etiquetas de clases COCO
-classes = []
 with open('coco.names', 'r') as f:
     classes = f.read().strip().split('\n')
 
@@ -63,5 +57,3 @@ while True:
 # Liberar la captura de video y cerrar las ventanas
 cap.release()
 cv2.destroyAllWindows()
-
-#isai chupalo
