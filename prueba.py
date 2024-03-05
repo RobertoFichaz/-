@@ -63,3 +63,5 @@ while True:
 # Liberar la captura de video y cerrar las ventanas
 cap.release()
 cv2.destroyAllWindows()
+
+#isai chupalo
